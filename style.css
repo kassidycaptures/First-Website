@@ -1,0 +1,29 @@
+/*universal selector - selects literally*/
+*{
+
+}
+
+/*Type selector- matches any element with this name */
+p {
+
+}
+
+/* ID Selector - selects the html element with this ID attribute*/
+/* <p id="blue"> */
+#blue{
+
+}
+/*class selector - selects the matching class attribute*/
+/* <p class="fancy">*/
+.className{
+}
+
+/* child selector - selects an item that is a child of something else*/
+p > a{
+color:blueviolet;
+}
+
+/*descendant selector*/
+footer a {
+    
+}
